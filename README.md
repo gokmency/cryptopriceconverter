@@ -4,7 +4,7 @@ This Chrome extension allows you to convert cryptocurrency amounts to their USD 
 
 ## Features
 
-- Supported coins: BTC, ETH, SOL, DOGE, ADA, DOT, MATIC, AVAX
+- Supported coins: BTC, ETH, SOL, DOGE, ADA, DOT, MATIC, AVAX, TOP 200 IN COINGECKO
 - Real-time price data (CoinGecko API)
 - Modern and sleek popup design
 - Support for various text formats (e.g., "0.23 ETH", ".5 SOL", "1BTC")
