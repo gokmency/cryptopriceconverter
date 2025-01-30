@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Crypto Price Converter",
+  "version": "1.0.0",
+  "description": "Instantly convert cryptocurrency amounts to USD, EUR, GBP, or TRY. Supports 50+ cryptocurrencies with real-time prices.",
+  "permissions": [
+    "storage",
+    "contextMenus"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "author": "Your Name",
+  "homepage_url": "https://github.com/yourusername/crypto-converter-extension"
+}
