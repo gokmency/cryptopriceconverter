@@ -1,3 +1,5 @@
+<img width="440" height="280" alt="crypto_promo_block_440x280" src="https://github.com/user-attachments/assets/638c5678-0b6e-4d3a-b151-404fc6a7fbd7" />
+
 # Crypto Amount Converter Chrome Extension
 
 This Chrome extension allows you to convert cryptocurrency amounts to their USD equivalent on any webpage.
